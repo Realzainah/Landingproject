@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "sans-serif";
+   
+}
+header{
+    height :70px;
+    background: grey;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+.Logo {
+    padding-left:12px ;
+    font-size: 28px;
+    color:black;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap :10px;
+    flex-wrap:wrap;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-size: 18px;
+    
+}
+header2{
+    height :200px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap:5px;
+    
+}
+
+.main{
+    gap:4px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    width:700px;
+    flex-wrap: wrap;
+}
+h3{
+    font-size: 48px;
+    font-weight: 900;
+    color:blanchedalmond;
+}
+p{
+    color: white;
+    font-size: 24px;
+}
+.button{
+    background: #3882F6;
+    color:white;
+    border: none;
+    width :70px;
+    padding: 6px;
+    border-radius:4px ;
+    cursor: pointer;
+}
+img{
+  
+    padding: 6px;
+    flex-wrap: wrap ;
+}
+section {
+    height :180px;
+    background: white;
+    padding: 10px;
+    flex-direction: row;
+    align-content: center ;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+    flex-wrap: wrap;
+    word-spacing: 5px;
+}
+p2{
+    font-size: 23px;
+    text-align: center;
+}
+.comment 
+ {
+    height :150px;
+    background: lightgray;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 20px ;
+  }
+    .box{
+        display: flex;
+        gap:20px;
+        justify-content: space-around;
+        align-content: center;
+        padding: 20px 20px 15px 15px;
+        background: #3882F6;
+        margin: 25px;
+        border-radius: 5px;
+    }
+    .left{
+        gap:10px;
+        color: white;
+    }
+    span{
+        font-weight: bold;
+        color: white;
+    }
+    
+    .right{
+        color: white;
+        background: #3882F6;
+        border: 1px solid white;
+        padding: 10px;
+        width: 70px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .footer{
+        background: lightgray;
+        padding: 10px;
+    }
+    h6
+    {
+        color: black;
+        text-align: center;
+        font-style: italic;
+    }
